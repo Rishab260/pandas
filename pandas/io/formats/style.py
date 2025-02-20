@@ -187,6 +187,8 @@ class Styler(StylerRenderer):
 
     Attributes
     ----------
+    index : Index
+    columns : Index
     env : Jinja2 jinja2.Environment
     template_html : Jinja2 Template
     template_html_table : Jinja2 Template
