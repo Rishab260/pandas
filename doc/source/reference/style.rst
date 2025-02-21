@@ -31,6 +31,15 @@ Styler properties
    Styler.template_string
    Styler.loader
 
+   .. autoattribute:: Styler.env
+   .. autoattribute:: Styler.template_html
+   .. autoattribute:: Styler.template_html_style
+   .. autoattribute:: Styler.template_html_table
+   .. autoattribute:: Styler.template_latex
+   .. autoattribute:: Styler.template_typst
+   .. autoattribute:: Styler.template_string
+   .. autoattribute:: Styler.loader
+
 Style application
 -----------------
 .. autosummary::
