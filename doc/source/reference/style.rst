@@ -19,17 +19,29 @@ Styler constructor
 
 Styler properties
 -----------------
-.. autosummary::
-   :toctree: api/
+.. list-table::
+   :widths: auto
 
-   Styler.env
-   Styler.template_html
-   Styler.template_html_style
-   Styler.template_html_table
-   Styler.template_latex
-   Styler.template_typst
-   Styler.template_string
-   Styler.loader
+   * - :attr:`Styler.index` : Index
+     - Index of the DataFrame.
+   * - :attr:`Styler.columns` : Index
+     - Columns of the DataFrame.
+   * - :attr:`Styler.env` : jinja2.Environment
+     - Jinja2 Environment for template rendering.
+   * - :attr:`Styler.template_html` : jinja2.Template
+     - Jinja2 Template for rendering `Styler` objects as HTML output.
+   * - :attr:`Styler.template_html_style` : jinja2.Template
+     - Jinja2 Template for the `<style>` section in the HTML output.
+   * - :attr:`Styler.template_html_table` : jinja2.Template
+     - Jinja2 Template for rendering HTML tables.
+   * - :attr:`Styler.template_latex` : jinja2.Template
+     - Jinja2 Template for LaTeX output.
+   * - :attr:`Styler.template_typst` : jinja2.Template
+     - Jinja2 Template for Typst output.
+   * - :attr:`Styler.template_string` : jinja2.Template
+     - Jinja2 Template for string representation.
+   * - :attr:`Styler.loader` : jinja2.BaseLoader
+     - Jinja2 Loader for templates.
 
 Style application
 -----------------
